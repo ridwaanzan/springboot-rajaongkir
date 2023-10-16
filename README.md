@@ -1,15 +1,23 @@
+Deploy to docker-desktop:
 ```
-    ==== REQBODY:
-    
+~ you should build the jar first. use this command:
+mvn install -f pom.xml
+
+~ you can build the image using this command:
+docker build -t <image-name>
+```
+
+REQUEST:
+``` 
     {
         "origin": "501",
         "destination": "114",
         "weight": 1700,
         "courier": "jne"
     }
-    
-    ==== RESPONSE:
-    
+```
+RESPONSE:
+``` 
     [
         {
             "code": "jne",

@@ -1,2 +1,5 @@
 * 1.0.0-SNAPSHOT
     * Excercise springboot raja ongkir with interceptor
+
+* 1.0.1-SNAPSHOT
+    * Removing JPA
